@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['b',['b',['../struct_pixel.html#abc9f592730eddbfcb270a1974a498d78',1,'Pixel']]],
+  ['bffilesize',['bfFileSize',['../structbitmap_1_1_bitmap_file_header.html#af50ce786dd39713f074368a0dcd3ec5e',1,'bitmap::BitmapFileHeader']]],
+  ['bfres1',['bfRes1',['../structbitmap_1_1_bitmap_file_header.html#a2a947a778f109c2b6bddfda7ebdeec28',1,'bitmap::BitmapFileHeader']]],
+  ['bfres2',['bfRes2',['../structbitmap_1_1_bitmap_file_header.html#a616144351d9c839482ee61c30d2f65c5',1,'bitmap::BitmapFileHeader']]],
+  ['bfstartadress',['bfStartAdress',['../structbitmap_1_1_bitmap_file_header.html#a3649971fdca49f57176aa772aedc249b',1,'bitmap::BitmapFileHeader']]],
+  ['bftype',['bfType',['../structbitmap_1_1_bitmap_file_header.html#a9e1e60ae527b64a6cbb2c820043105e6',1,'bitmap::BitmapFileHeader']]],
+  ['bibitsperpixel',['biBitsPerPixel',['../structbitmap_1_1_bitmap_info_header.html#a1909e08b21c556047188c4d7946ee2de',1,'bitmap::BitmapInfoHeader']]],
+  ['bicolorplanes',['biColorPlanes',['../structbitmap_1_1_bitmap_info_header.html#ae657a15ab6f54e2fdcaafc970532ed89',1,'bitmap::BitmapInfoHeader']]],
+  ['bicolorspercolorpalette',['biColorsPerColorPalette',['../structbitmap_1_1_bitmap_info_header.html#a73583a69e7eed8550a2660395cafe2d6',1,'bitmap::BitmapInfoHeader']]],
+  ['bicompression',['biCompression',['../structbitmap_1_1_bitmap_info_header.html#a0f7d9157b3491c994507b37c9ba36ed5',1,'bitmap::BitmapInfoHeader']]],
+  ['biheight',['biHeight',['../structbitmap_1_1_bitmap_info_header.html#a256817f90655dc1b65f84bc8e120b5b6',1,'bitmap::BitmapInfoHeader']]],
+  ['bihorizontalresolution',['biHorizontalResolution',['../structbitmap_1_1_bitmap_info_header.html#afbd25c3337ae975d02cefcdddcade1e6',1,'bitmap::BitmapInfoHeader']]],
+  ['biimagesize',['biImageSize',['../structbitmap_1_1_bitmap_info_header.html#a16a9fc89c01b09fe3439a84c9fff15c5',1,'bitmap::BitmapInfoHeader']]],
+  ['biimportantcolorsused',['biImportantColorsUsed',['../structbitmap_1_1_bitmap_info_header.html#a99ec9743659b86ac189167ef29b72e8c',1,'bitmap::BitmapInfoHeader']]],
+  ['bisize',['biSize',['../structbitmap_1_1_bitmap_info_header.html#a41c298b3093db1ef782975c29727c817',1,'bitmap::BitmapInfoHeader']]],
+  ['bitmapdata',['bitmapData',['../class_image.html#ab6a97f9788e5257ffa31469289bdb47c',1,'Image']]],
+  ['bitmapfileheader',['bitmapFileHeader',['../class_image.html#a9a4880dc04940e46dcdef9c7dbfce522',1,'Image']]],
+  ['bitmapinfoheader',['bitmapInfoHeader',['../class_image.html#a5c2232fdfdf8a9d51bdfec1f16f744e9',1,'Image']]],
+  ['bitspersample',['bitsPerSample',['../class_wave.html#abd1ad0e748cc699a6f115109ad6413f0',1,'Wave']]],
+  ['biverticalresolution',['biVerticalResolution',['../structbitmap_1_1_bitmap_info_header.html#a31721c3904746bb34106fd8e5133c52a',1,'bitmap::BitmapInfoHeader']]],
+  ['biwidth',['biWidth',['../structbitmap_1_1_bitmap_info_header.html#a28a06d90c0e6f454e9d1c3a5f126602e',1,'bitmap::BitmapInfoHeader']]],
+  ['blockalign',['blockAlign',['../class_wave.html#ad0755edb829404116c12445f9b0061b3',1,'Wave']]],
+  ['buffer',['buffer',['../class_sound.html#ad45d034469bc1f116fc6aae5414f0d2c',1,'Sound']]],
+  ['buffersize',['bufferSize',['../class_sound.html#a1da5ab8138e5b5d6ef6cf6fae0ca14f0',1,'Sound']]],
+  ['byterate',['byteRate',['../class_wave.html#a90cad27081aa5ec6e12993e9d1e7cfcb',1,'Wave']]]
+];

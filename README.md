@@ -1,4 +1,4 @@
-# Wie Klingt ein Bild? Anwendungen der 2D Signalverarbeitung 
+# Wie klingt ein Bild? Anwendungen der 2D Signalverarbeitung 
 
 Vorwort
 -------

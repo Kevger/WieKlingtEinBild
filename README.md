@@ -14,10 +14,12 @@ Implementierte Algorithmen
 Bild wird von links nach rechts spaltenweise durchgescannt.
 Jede Zeile steht für eine Frequenz. Je intensiver RGB vom Pixel, desto höher die Amplitude der jeweiligen Frequenz.
 Nur Pixel mit einer Mindestintensität erhalten eine Amplitude größer 0 erhalten. 
+![](/Dokumentation/_readme/LR_SCAN.png) 
 
 1) Links-Rechts-Scan ohne Aktivierungsschwelle (LR_SCAN_NO_THRESHOLD)
 Identisch mit (0), nur das alle Pixel egal wie schwach auch diese sind beachtet werden. 
 Ist eher verrauscht als (0).
+![](/Dokumentation/_readme/LR_SCAN2.png)
 
 2) Oben-Unten-Scan (UD_SCAN)
 Identisch mit (0) aber anstatt von links nach rechts, diesmal von oben nach unten.
@@ -29,7 +31,9 @@ Identisch mit (2) nur ohne Aktivierungsschwelle wie in (1).
 Springt immer um drei Byte (oder Vielfache) durch das Bild und erzeugt anhand von Rot eine Frequenz, mit Grün die Amplitude dieser und optional mit Blau die Dauer der Frequenz.
 
 5) TRIPLET_JMP
-Identisch mit (5) nur das Blau jetzt den Offset zum nächsten Triplet bestimmt. Dauer vom Ton wird durch Farbintensitaet RGB bestimmt.
+Identisch mit (5) nur das Blau jetzt den Offset zum nächsten Triplet bestimmt. Die Dauer vom Ton wird durch Farbintensitaet RGB bestimmt.
+![](/Dokumentation/_readme/TRIPLET.png)
+
 
 6) UD_LR_SCAN
 Das Bild wird von oben nach unten und von links nach rechts gleichzeitig gescannt.

@@ -87,8 +87,9 @@ Der Aufruf vom Programm, muss mit der Übergabe von 10 Parametern erfolgen.
 
 Beispiel
 --------
-Aufruf vom Programm z.B. über Eingabeaufforderung.
+Der Aufruf vom Programm z.B. über Eingabeaufforderung.
+```
 WieKlingtEinBild.exe Beispiel.bmp Beispiel.wav 44100 100 256 0 12000 160 0 0
-
+```
 
 

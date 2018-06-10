@@ -3,7 +3,7 @@
 Vorwort
 -------
 Im Rahmen vom interdisziplinären Wahlfach "Anwendungen der 2D Signalverarbeitung (HOTSPOT Wie klingt ein Bild?)" an der HS Pforzheim, habe ich mich mit der Umwandlung von Bild (.bmp) in Audiodaten (.wav) beschäfigt.
-Meine Aufgabe im Team war es, das Back-End in C++ und die dazugehörigen Algorithmen sich auszudenken und zu implementieren.
+Meine Aufgabe im Team war es, das Back-End in C++ zu implementieren. 
 
 Auf externe Bibliotheken wurde verzichtet, weswegen sich das Einlesen und Ausgeben von Daten auf .bmp und .wav Dateien beschränkt.
 Eine Doxygen Dokumentation liegt dem Repo bei.

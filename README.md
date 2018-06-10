@@ -8,6 +8,9 @@ Meine Aufgabe im Team war es, das Back-End in C++ und die dazugehörigen Algorit
 Auf externe Bibliotheken wurde verzichtet, weswegen sich das Einlesen und Ausgeben von Daten auf .bmp und .wav Dateien beschränkt.
 Eine Doxygen Dokumentation liegt dem Repo bei.
 
+Das Front-End zu diesem Back-End ist hier verfügbar:
+[Wie klingt ein Bild? - Front-End](https://github.com/PErlenmaier/WieKlingtEinBild "Hier zum Repository vom Front-End")
+
 Implementierte Algorithmen
 --------------------------
 0) Links-Rechts-Scan (LR_SCAN)
@@ -43,7 +46,7 @@ Anleitung
 ---------
 Der Aufruf vom Programm, muss mit der Übergabe von 10 Parametern erfolgen.
 
-Grundeinstellungen für die Parameterübergabe:
+### Grundeinstellungen für die Parameterübergabe:
 1) Bilddateiname (zwingend .bmp)
 2) Audiodateiname (zwingend .wav)
 3) Abtastfrequenz (normalerweise 44100)
@@ -55,7 +58,7 @@ Grundeinstellungen für die Parameterübergabe:
 9) Algorithmus spezische Einstellung 3
 10) Alle Pixel invertiert betrachten (falls Argument ungleich 0, dann aktiv)
 
-Algorithmus spezische Einstellung 1:
+#### Algorithmus spezische Einstellung 1:
 - LR_SCAN: Maximale Frequenz
 - LR_SCAN_NO_THRESHOLD: Maximale Frequenz
 - UD_SCAN: Maximale Frequenz
@@ -64,7 +67,7 @@ Algorithmus spezische Einstellung 1:
 - TRIPLET_JMP: - 
 - UD_LR_SCAN: Maximale Frequenz
 
-Algorithmus spezische Einstellung 2:
+#### Algorithmus spezische Einstellung 2:
 - LR_SCAN: Aktivierungsschwelle für Pixel
 - LR_SCAN_NO_THRESHOLD: -
 - UD_SCAN: Aktivierungsschwelle für Pixel
@@ -73,7 +76,7 @@ Algorithmus spezische Einstellung 2:
 - TRIPLET_JMP: Tondauer abhaengig von der Pixelintensitaet
 - UD_LR_SCAN: Tondauer abhaengig vom Blauanteil
 
-Algorithmus spezische Einstellung 3:
+#### Algorithmus spezische Einstellung 3:
 - LR_SCAN: - 
 - LR_SCAN_NO_THRESHOLD: - 
 - UD_SCAN: - 

@@ -65,7 +65,7 @@ int main(int argc, char* argv[])
 	additionalSettings.settings3 = std::stod(argv[9]);
 	additionalSettings.settings4 = std::stod(argv[10]);
 
-	std::cout << "\nStarte umwandlung..." << std::endl;
+	std::cout << "\nStarte Umwandlung..." << std::endl;
 
 	//Umwandlung von Bild in Ton durchfueren
 	Processing::Processing processing;

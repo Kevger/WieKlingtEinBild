@@ -44,6 +44,7 @@ Identisch mit (5) nur das Blau jetzt den Offset zum nächsten Triplet bestimmt. 
 Das Bild wird von oben nach unten und von links nach rechts gleichzeitig gescannt.
 Die Senkrechte zur X-Achse und die Parallele erzeugen beide jeweils einen Ton. Jeder Ton wird abhängig vom jeweiligen Farbanteil erzeugt. Rot bestimmt die Frequenz, Grün bestimmt die Lautstärke und der gemeinsame Blauanteil die Dauer der beiden Töne.
 
+![](/Dokumentation/_readme/UD_LR_SCAN.png)
 Anleitung
 ---------
 Der Aufruf vom Programm, muss mit der Übergabe von 10 Parametern erfolgen.

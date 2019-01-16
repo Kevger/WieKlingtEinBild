@@ -1,4 +1,4 @@
-![](/Dokumentation/_readme/infographic.png) 
+![](/Dokumentation/_readme/infograph.png) 
 
 Das Front-End zu diesem Back-End ist hier verfügbar:
 [Wie klingt ein Bild? - Front-End](https://github.com/PErlenmaier/WieKlingtEinBild "Hier zum Repository vom Front-End")

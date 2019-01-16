@@ -1,50 +1,9 @@
-# Wie klingt ein Bild? Anwendungen der 2D Signalverarbeitung 
-
-Vorwort
--------
-Im Rahmen vom interdisziplinären Wahlfach "Anwendungen der 2D Signalverarbeitung (HOTSPOT Wie klingt ein Bild?)" an der HS Pforzheim, habe ich mich mit der Umwandlung von Bild (.bmp) in Audiodaten (.wav) beschäfigt.
-Meine Aufgabe im Team war es, das Back-End in C++ zu implementieren. 
-
-Auf externe Bibliotheken wurde verzichtet, weswegen sich das Einlesen und Ausgeben von Daten auf .bmp und .wav Dateien beschränkt.
-Eine Doxygen Dokumentation liegt dem Repo bei.
+![](/Dokumentation/_readme/infographic.png) 
 
 Das Front-End zu diesem Back-End ist hier verfügbar:
 [Wie klingt ein Bild? - Front-End](https://github.com/PErlenmaier/WieKlingtEinBild "Hier zum Repository vom Front-End")
 
-Implementierte Algorithmen
---------------------------
-0) Links-Rechts-Scan (LR_SCAN)
-Bild wird von links nach rechts spaltenweise durchgescannt.
-Jede Zeile steht für eine Frequenz. Je intensiver RGB vom Pixel, desto höher die Amplitude der jeweiligen Frequenz.
-Nur Pixel mit einer Mindestintensität erhalten eine Amplitude größer 0 erhalten. 
 
-![](/Dokumentation/_readme/LR_Scan.png) 
-
-1) Links-Rechts-Scan ohne Aktivierungsschwelle (LR_SCAN_NO_THRESHOLD)
-Identisch mit (0), nur das alle Pixel egal wie schwach auch diese sind beachtet werden. 
-Ist eher verrauscht als (0).
-![](/Dokumentation/_readme/LR_SCAN2.png)
-
-2) Oben-Unten-Scan (UD_SCAN)
-Identisch mit (0) aber anstatt von links nach rechts, diesmal von oben nach unten.
-![](/Dokumentation/_readme/UD_Scan.png)
-
-3) Oben-Unten-Scan ohne Aktivierungsschwelle(UD_SCAN_NO_THRESHOLD)
-Identisch mit (2) nur ohne Aktivierungsschwelle wie in (1).
-
-4) TRIPLET
-Springt immer um drei Byte (oder Vielfache) durch das Bild und erzeugt anhand von Rot eine Frequenz, mit Grün die Amplitude dieser und optional mit Blau die Dauer der Frequenz.
-
-5) TRIPLET_JMP
-Identisch mit (5) nur das Blau jetzt den Offset zum nächsten Triplet bestimmt. Die Dauer vom Ton wird durch Farbintensitaet RGB bestimmt.
-![](/Dokumentation/_readme/Triplet.png)
-
-
-6) UD_LR_SCAN
-Das Bild wird von oben nach unten und von links nach rechts gleichzeitig gescannt.
-Die Senkrechte zur X-Achse und die Parallele erzeugen beide jeweils einen Ton. Jeder Ton wird abhängig vom jeweiligen Farbanteil erzeugt. Rot bestimmt die Frequenz, Grün bestimmt die Lautstärke und der gemeinsame Blauanteil die Dauer der beiden Töne.
-
-![](/Dokumentation/_readme/UD_LR_SCAN.png)
 Anleitung
 ---------
 Der Aufruf vom Programm, muss mit der Übergabe von 10 Parametern erfolgen.
